@@ -77,12 +77,12 @@ foreach($notes as $key => $value)
     ksort($notes);
     echo"tableau triée en ordre croissant des noms";
 ?>
-<table class="table table-bordered">
-    <tr ><th>NOM</th><th>NOTE EN PHP</th></tr>
+<table class="table">
+    <tr class="table-primary" ><th>NOM</th><th>NOTE EN PHP</th></tr>
     <?php 
         foreach ($notes as  $key => $value) {
             ?>
-            <tr >
+            <tr class="table-info">
                 <td>
                     <?= $key ?>
             </td>
