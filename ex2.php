@@ -51,7 +51,9 @@ echo"</pre>";
                   <td><?= $key ?></td>  
             </tr>
 
-       <?php }?>
+       <?php 
+       }
+       ?>
     ?>
 </table>
 </body>
